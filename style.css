@@ -1,0 +1,151 @@
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Bebas Neue', cursive;*/
+*{
+	box-sizing:border-box;
+}
+
+section {
+	border:2px solid #4C4C4C;
+	padding: 20px 0;
+	border-top:2px solid #4C4C4C;
+	border-bottom:2px #4C4C4C;
+}
+body {
+	background-color: #000000;
+	margin:0;
+	padding:0;
+}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+	color:#2EC4B6;
+}
+h1, h2, h3{
+	font-family: 'Bebas Neue', cursive;
+	color:#2EC4B6;
+}
+header {
+
+	font-family: 'Bebas Neue', cursive;
+	font-size: 25px;
+	padding: 0 20px;
+}
+ul{
+	list-style-type:none;
+	text-align: center;
+	display:flex; 
+	flex-wrap: wrap;
+	justify-content: space-between;
+	
+}
+
+header a {
+	color:#2EC4B6;
+	text-decoration:none;
+	transition: all ease .3s;
+}
+
+header a:hover {
+	background-color: #2EC4B6;
+	color: black;
+}
+
+.image{
+	background-image:url("deadmau5.png");
+	background-size:cover;
+	padding-top:200px;
+	padding-bottom:200px;
+	text-align:center;
+	border: 5px solid #4C4C4C;
+	text-align: center;
+	
+}
+
+.image h1 {
+	font-family: 'Heebo', sans-serif;
+	background: rgba(76, 76, 76, .5);
+	max-width: 300px;
+	margin: 0 auto;
+	padding-top:20px;
+	padding-bottom:20px;
+	font-size:40px;
+	letter-spacing:-3px;
+}
+
+.bio {
+	text-align:center;
+}
+
+.tour {
+
+}
+
+.tour-date {
+	display:flex;
+	justify-content:space-between;
+	padding: 0 30px;
+	align-items: center;
+}
+.tour-date p {
+	text-align:left;
+	width:25%;
+}
+
+.tour-date a {
+	font-family: 'Bebas Neue', cursive;
+	color: #2EC4B6;
+	border: 2px solid #2EC4B6;
+	padding: 8px;
+	margin: 0;
+	text-decoration: none;
+	transition: all ease .3s;
+}
+.tour-date a:hover {
+	background-color: #2EC4B6;
+	color: black;
+}
+
+.music {
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 0 20px;
+}
+
+.music div {
+	width:32%;
+	text-align: center;
+}
+
+.music div img {
+	width: 100%;
+}
+
+.music div h3 {
+	margin: 5px 0 15px 0;
+	font-size:30px;
+}
+
+footer {
+	text-align: center;
+	border:2px solid #4C4C4C;
+	padding: 20px 0;
+	border-top:2px solid #4C4C4C;
+	border-bottom:2px #4C4C4C;
+} 
+#form {
+	background-color: #000000;
+	color:#2EC4B6;
+	font-family: 'Open Sans', sans-serif;
+	border:none; 
+	padding-bottom:20px;
+}
+
+.music h1 {
+	width:100%;
+	text-align:center;
+}
+
+html {
+	scroll-behavior:smooth;
+}
